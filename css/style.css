@@ -200,10 +200,15 @@ img {
   border-radius: 20px;
   cursor: pointer;
   box-shadow: 1px 3px 11px -5px rgba(102, 221, 200, 0.69);
-  right: 10px;
-  bottom: 10px;
-  position: absolute;
+
 }
+
+.main-footer .container {
+  display: flex;
+  justify-content: space-between; /* separa izquierda y derecha */
+  align-items: center;
+}
+
 
 .btn:hover {
   background-color: var(--secondary-color);
